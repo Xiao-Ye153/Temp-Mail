@@ -1,4 +1,4 @@
-const API = "https://api.mail.tm";
+const API = "/api/mail";
 
 export type Acc = { id: string; address: string; password: string; token: string; createdAt: number };
 export type Msg = {
